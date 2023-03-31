@@ -9,4 +9,6 @@ This is a code that guides you on how to create/intergrate paypal Payment method
 
 ### How to clone this repo
 
-`git clone`
+```javascript
+git clone
+```
