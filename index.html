@@ -6,29 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./styles.css">
-    <title>Paypal Integration with Javascript</title>
+    <title> Paypal Integration with Javascript </title>
+    <script  src="https://www.paypal.com/sdk/js?client-id=AWT1hixAZylrE0-D7S9FLN4e8Rm1DY30hVUdz7H2ureB3TuJvoZ88xDV27l7wxh4ADwBqRM2dSkd_5QD"></script>
 </head>
 <body>
     <h1>Hello world, This is PayPal Integration with Javascript</h1>
-    <div class="product-container">
-        <div class="product-image-container">
-          <img src="myprogrammingbook.jpg" alt="MyProgrammingBook">
-        </div>
-        <div class="product-info-container">
-          <h1>MyProgrammingBook</h1>
-          <p class="price">$0.99</p>
-          <p class="product-description">
-            Want to make all of your code run at O(1) speed? Then let me introduce MyProgrammingBook! Written by the world's leading expert on algorithmic optimization (me), this book will teach you everything you need to know to make your code lightning fast. Plus, it comes with a free unicorn* to help you implement all the techniques you learn. Don't miss out on this once-in-a-lifetime opportunity!
-          </p>
-          <p>*Terms and Conditions Apply</p>
-          <div id="smart-button-container">
-            <div style="text-align: center;">
-              <div id="paypal-button-container"></div>
-            </div>
-          </div>
-          <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-          <script type="text/javascript" src="script.js"></script>
-        </div>
-      </div>
+
+    <input id="donate-amount" type="Enter Amount">
+    <div id="paypal-button-container">
+    </div>
 </body>
 </html>
